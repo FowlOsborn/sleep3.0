@@ -101,7 +101,7 @@ void loop() {
   lcd.write('0'+(minute()%10));
   dh=h=dm=m=nh=starcheck=timeset=true;
       } 
-  }
+  } 
   if(key==NO_KEY && timeset)
   {
   lcd.setCursor(0,0);
